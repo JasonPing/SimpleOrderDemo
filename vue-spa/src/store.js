@@ -7,7 +7,7 @@ export default new Vuex.Store({
   state: {
     isUserLogged: !!localStorage.getItem('token'),
     isAdminLogged: !!localStorage.getItem('admintoken'),
-    apiUrl: 'http://kobe.test/api',
+    apiUrl: 'http://simpleorder.test/api',
   },
   mutations: {
     LOGIN_USER(state) {

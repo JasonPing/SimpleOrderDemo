@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <h1 class="md-display-3">Welcome to Kobe Order system</h1>
+    <h1 class="md-display-3">Welcome to Simple Order system</h1>
     <h2>There are two default users whose credentials are:</h2>
     <p>Username: user1</p>
     <p>Password: user1</p>

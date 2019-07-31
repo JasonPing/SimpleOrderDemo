@@ -7,7 +7,7 @@ A local PHP server (contains mysql sever) is required in order to serve the back
 Install the dependencies.
 
 ```sh
-$ cd kobe
+$ cd simpleorder
 $ cd lumen-api
 $ composer install
 ```
@@ -26,7 +26,7 @@ Go to your MySQL sever to create a schema. The name should be same as what you p
 
 Run data migration (Please notice that, if you are using Homestead virtual machine, you need to ssh to vagrant and find the folder you map to in the server and run this command)
 ```sh
-$ cd kobe
+$ cd simpleorder
 $ cd lumen-api
 $ php artisan migrate
 ```
@@ -54,21 +54,21 @@ Running your PHP server. Open browser and head to your backend url. if you see '
 Install the dependencies.
 
 ```sh
-$ cd kobe
+$ cd simpleorder
 $ cd vue-spa
 $ yarn install
 ```
 # Frontend Configuration
 Head to "vue-spa/src/store.js"
 
-Find variable "apiUrl" in this file and  assign your backend URL to this variable (replace 'http://kobe.test/api' with 'http://<your URL>/api' )
+Find variable "apiUrl" in this file and  assign your backend URL to this variable (replace 'http://simpleorder.test/api' with 'http://<your URL>/api' )
 
 # Running frontend
 Make sure both frontend and backend dependencies are installed, and configurations are completed.
 
 Running frontend
 ```sh
-$ cd kobe
+$ cd simpleorder
 $ cd vue-spa
 $ yarn run sever
 ```
