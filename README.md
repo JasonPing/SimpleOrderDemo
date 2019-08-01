@@ -70,7 +70,7 @@ Running frontend
 ```sh
 $ cd simpleorder
 $ cd vue-spa
-$ yarn run sever
+$ yarn run serve
 ```
  Open 'http://localhost:8080/' in browser, you will see the home page of the website.
 
